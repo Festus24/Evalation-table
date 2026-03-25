@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    td{
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+<body>
+    <input type="number" placeholder="Enter First digit" id="valOne">
+    <input type="number" placeholder="Enter First digit" id="valTwo">
+    <select name="" id="calculation">
+        <option value="*">MULTIPLICATION</option>
+        <option value="+">ADD</option>
+        <option value="-">SUBTRACT</option>
+        <option value="/">DIVIDE</option>
+    </select>
+
+    <button onclick="show()">Make the Table</button>
+    <div id="tableOutput"></div>
+
+</body>
+<script src="./script.js"></script>
+</html>
